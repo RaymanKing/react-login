@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
-import Login from "./pages/Login";
+import Formulario from "./pages/Formulario";
 import Register from "./pages/Register";
 
 
@@ -25,7 +25,7 @@ function App() {
 
         <Switch>
           <Route path="/" exact>
-            <Login />
+            <Formulario />
           </Route>
           <Route path="/register" exact>
             <Register />
