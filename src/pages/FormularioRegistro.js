@@ -35,7 +35,7 @@ const FormularioRegistro = () => {
         let json = await res.json();
         console.log(json);
         alert('Te has registrado correctamente!');
-        window.location.href="http://localhost:3000/";
+        window.location.href="https://react-login-netlify.netlify.app/";
     }catch (error){
         console.log(error);
     }

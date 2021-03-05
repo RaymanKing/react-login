@@ -35,7 +35,7 @@ const Formulario = () => {
                 response.json()
                     .then(data => {
                         alert('Has iniciado sesión correctamente');
-                        window.location.href="http://localhost:3000/home";
+                        window.location.href="https://react-login-netlify.netlify.app/home";
                     })
                     .catch(error => {
                         alert('Introduce bien tus credenciales2');
