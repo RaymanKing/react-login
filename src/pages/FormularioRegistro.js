@@ -34,6 +34,8 @@ const FormularioRegistro = () => {
         let res = await fetch('https://salty-springs-71123.herokuapp.com/auth/local/register/', options);
         let json = await res.json();
         console.log(json);
+        alert('Te has registrado correctamente!');
+        window.location.href="http://localhost:3000/";
     }catch (error){
         console.log(error);
     }

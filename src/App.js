@@ -18,9 +18,6 @@ function App() {
           <Link className="App-link" style={{ margin: "0 10 px" }} to="/register">
             Register
           </Link>
-          <Link className="App-link" style={{ margin: "0 10 px" }} to="/home">
-            Home
-          </Link>
         </div>
 
         <Switch>

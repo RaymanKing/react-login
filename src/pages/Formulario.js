@@ -18,7 +18,7 @@ const Formulario = () => {
   const enviarDatos = (event) => {
     event.preventDefault();
     const options = {
-        methos: 'POST',
+        method: 'POST',
         headers:{
             'Content-Type':'application/json'
         },
@@ -35,6 +35,7 @@ const Formulario = () => {
                 response.json()
                     .then(data => {
                         alert('Has iniciado sesión correctamente');
+                        window.location.href="http://localhost:3000/home";
                     })
                     .catch(error => {
                         alert('Introduce bien tus credenciales2');
@@ -48,6 +49,7 @@ const Formulario = () => {
 
   return (
     <form onSubmit={enviarDatos}>
+        <h1>Login</h1>
       <input
         type="text"
         placeholder="Correo electronico"
