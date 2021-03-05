@@ -12,10 +12,10 @@ function App() {
     <div className="App-header">
       <Router>
         <div>
-          <Link className="App-link" style={{ margin: "0 10 px" }} to="/">
+          <Link className="App-link" to="/">
             Login
           </Link>
-          <Link className="App-link" style={{ margin: "0 10 px" }} to="/register">
+          <Link className="App-link" to="/register">
             Register
           </Link>
         </div>
